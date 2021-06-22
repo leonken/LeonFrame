@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CommandHandler\**" />
+    <Compile Remove="Commands\**" />
+    <Compile Remove="EventHandler\**" />
+    <EmbeddedResource Remove="CommandHandler\**" />
+    <EmbeddedResource Remove="Commands\**" />
+    <EmbeddedResource Remove="EventHandler\**" />
+    <None Remove="CommandHandler\**" />
+    <None Remove="Commands\**" />
+    <None Remove="EventHandler\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
+
+</Project>
