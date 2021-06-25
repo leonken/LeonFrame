@@ -7,3 +7,4 @@ RabbitMQ消息队列<br/>
 集成事件<br/>
 领域事件<br/>
 CQRS<br/>
+全局事务<br/>
