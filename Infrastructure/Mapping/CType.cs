@@ -9,7 +9,7 @@ using System.Text;
 *描述：
 *
 ***********************************************************/
-namespace Lenovo.PMS.Infrastruct.Mappings
+namespace PMS.Infrastruct.Mappings
 {
     public class CType
     {

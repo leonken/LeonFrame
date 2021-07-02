@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Domain.Model.Users;
-using Lenovo.PMS.Infrastruct.Mappings;
+using PMS.Infrastruct.Mappings;
 
 /**********************************************************
 
